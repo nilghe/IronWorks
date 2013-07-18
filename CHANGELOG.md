@@ -32,4 +32,4 @@
 * Buttons
 
 # Other changes
-* Added proper RAEDME.md
+* Added proper README.md
