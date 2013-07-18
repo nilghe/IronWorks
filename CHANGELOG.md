@@ -13,15 +13,17 @@
 * Icons
 
 ## Components
+* Button groups and dropdowns
 * Nav
 * Navbar
 
 ## JS Components
 * Modals
+* Dropdowns
+* Collapse
 
 ## Miscellaneous
-* Wells
-* Close icon
+* All children under heading
 
 ## Responsive
 * All children under heading
@@ -29,6 +31,7 @@
 ## jQuery plugins
 * Transitions
 * Modals
+* Dropdowns
 * Buttons
 
 # Other changes
