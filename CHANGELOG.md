@@ -1,3 +1,9 @@
+# September 18th, 2013
+
+# Removal of FlexSlider
+# Adding background images for header
+# Increasing font size for paragraphs
+
 # July 17th, 2013
 
 * Customized Twitter Bootstrap CSS and JS for a smaller file size. The following were selected

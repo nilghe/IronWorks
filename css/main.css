@@ -79,9 +79,9 @@ textarea {
 /* ==========================================================================
    Iron Work Custom Styles
    ========================================================================== */
-body { color: #41484C; background-color: #ACBFCC; background-image: url('../img/bg3.png'); padding-top: 41px; font-family: 'Lato', sans-serif; }
+body { color: #41484C; background-color: #ACBFCC; background-image: url('../img/bg3.png'); font-family: 'Lato', sans-serif; }
 h1, h2, h3, h4, h5 { font-family: 'Roboto Condensed', sans-serif; text-transform: uppercase; text-shadow: 1px 1px 2px #FFFBDB; }
-p { font-size: 1.1em; color: #77838c; }
+p { font-size: 1.3em; color: #77838c; }
 hr { border-top: 1px solid #77838C; border-bottom: 1px solid #ACBFCC; }
 
 /* ==================================
@@ -96,6 +96,22 @@ hr { border-top: 1px solid #77838C; border-bottom: 1px solid #ACBFCC; }
    ================================== */
 .icon { height: 220px; width: 220px; }
 .responsive-icon { float: left; width: 8%; }
+
+/* ==================================
+   Header
+   ================================== */
+header {
+    background: url('../img/header-bg5.png') no-repeat center center;
+    height: 250px;
+    margin: 0 0 20px 0;
+    padding: 80px 0 0 0;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+header p { color: #fff; }
 
 /* ==================================
    Footer

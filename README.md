@@ -7,6 +7,5 @@ Code for Iron Technologies using the following:
 3. normalize / reset
 4. [jQuery 1.9.0](http://jquery.com/)
 5. modernizr 2.6.2
-6. [flexslider](http://flexslider.woothemes.com/)
 
 

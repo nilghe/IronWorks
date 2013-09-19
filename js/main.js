@@ -1,11 +1,5 @@
 $(document).ready(function(){
 
-  /* Flex Slider Init */
-   $('.flexslider').flexslider({
-       animation: "slide",
-       controlNav: false
-   });
-
     /* Animate scrolling to anchors */
     $('.brand, .nav > li > a, #footer-menu > li > a').click(function(){
         var anchor = $(this).attr('href');
