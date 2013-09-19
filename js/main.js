@@ -9,4 +9,13 @@ $(document).ready(function(){
         }, 400);
         return false;
     });
+
+    $('.icon').hover(
+    	function(){
+    		$(this).addClass('animated bounce');
+    	}, 
+    	function(){
+    		$(this).removeClass('animated bounce');
+    	}
+    );
 });

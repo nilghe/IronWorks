@@ -30,7 +30,7 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #9C001A;
     text-shadow: none;
 }
 
@@ -84,6 +84,13 @@ h1, h2, h3, h4, h5 { font-family: 'Roboto Condensed', sans-serif; text-transform
 h1 { font-size: 3em; }
 p { font-size: 1.3em; color: #FFFBDB; }
 hr { border-top: 1px solid #77838C; border-bottom: 1px solid #ACBFCC; }
+a { color: #41484C; 
+    -webkit-transition: color .5s ease;
+       -moz-transition: color .5s ease;
+        -ms-transition: color .5s ease;
+         -o-transition: color .5s ease;
+}
+a:hover { color: #9C001A; text-decoration: none; }
 
 /* ==================================
    Bootstrap Overrides
@@ -92,6 +99,7 @@ hr { border-top: 1px solid #77838C; border-bottom: 1px solid #ACBFCC; }
 .span12 { min-height: 250px; }
 .unstyled { font-size: 1.2em; color: #77838C; }
 .unstyled li { line-height: 28px; }
+.unstyled .icon-check-sign { margin-right: 5px; }
 .form-horizontal .controls { margin-left: 0; margin-right: 190px; } /* Contact Form to left align */
 
 /* ==================================
