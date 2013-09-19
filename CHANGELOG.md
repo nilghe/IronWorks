@@ -1,8 +1,12 @@
+# September 19th, 2013
+
+* Adding Font Awesome 3.2.1
+
 # September 18th, 2013
 
-# Removal of FlexSlider
-# Adding background images for header
-# Increasing font size for paragraphs
+* Removal of FlexSlider
+* Adding background images for header
+* Increasing font size for paragraphs
 
 # July 17th, 2013
 

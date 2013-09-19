@@ -81,14 +81,17 @@ textarea {
    ========================================================================== */
 body { color: #41484C; background-color: #ACBFCC; background-image: url('../img/bg3.png'); font-family: 'Lato', sans-serif; }
 h1, h2, h3, h4, h5 { font-family: 'Roboto Condensed', sans-serif; text-transform: uppercase; text-shadow: 1px 1px 2px #FFFBDB; }
-p { font-size: 1.3em; color: #77838c; }
+h1 { font-size: 3em; }
+p { font-size: 1.3em; color: #FFFBDB; }
 hr { border-top: 1px solid #77838C; border-bottom: 1px solid #ACBFCC; }
 
 /* ==================================
    Bootstrap Overrides
    ================================== */
-.navbar-inner { line-height: 1; opacity: .95; }
+.navbar-inner { line-height: 1; opacity: .9; }
 .span12 { min-height: 250px; }
+.unstyled { font-size: 1.2em; color: #77838C; }
+.unstyled li { line-height: 28px; }
 .form-horizontal .controls { margin-left: 0; margin-right: 190px; } /* Contact Form to left align */
 
 /* ==================================
@@ -102,6 +105,7 @@ hr { border-top: 1px solid #77838C; border-bottom: 1px solid #ACBFCC; }
    ================================== */
 header {
     background: url('../img/header-bg5.png') no-repeat center center;
+    border-bottom: 1px solid #77838C;
     height: 250px;
     margin: 0 0 20px 0;
     padding: 80px 0 0 0;
