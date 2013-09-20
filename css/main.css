@@ -241,12 +241,12 @@ footer { color: #77838C; font-size: .8em; margin-bottom: 25px; }
    Modify as content requires.
    ========================================================================== */
 @media (max-width: 979px){
-    body { padding-top: 0; } /* reset the top padding for the nav bar menu */
-    .flexslider { margin: 0 0 10px; padding: 0px 35px; }
+    .navbar-fixed-top { margin-bottom: 0; }
+    header { height: 275px; padding-top: 0; }
+    #footer-menu { margin: 0;}
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
-    .span9 { width: 100%; } /* custom bootstrap override */
 }
 
 @media (max-width: 767px ) {
