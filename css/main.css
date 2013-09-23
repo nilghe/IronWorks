@@ -114,9 +114,9 @@ a:hover { color: #9C001A; text-decoration: none; }
 header {
     background: url('../img/header-bg.png') no-repeat center center;
     border-bottom: 1px solid #77838C;
-    height: 250px;
+    min-height: 250px;
     margin: 0 0 20px 0;
-    padding: 80px 0 0 0;
+    padding: 4% 0 0 0;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -242,7 +242,7 @@ footer { color: #77838C; font-size: .8em; margin-bottom: 25px; }
    ========================================================================== */
 @media (max-width: 979px){
     .navbar-fixed-top { margin-bottom: 0; }
-    header { height: 275px; padding-top: 0; }
+    header { padding: 10px 20px; }
     #footer-menu { margin: 0;}
 }
 
@@ -250,8 +250,11 @@ footer { color: #77838C; font-size: .8em; margin-bottom: 25px; }
 }
 
 @media (max-width: 767px ) {
+    header { margin: 0 -20px 0 -20px; }
     .responsive-icon { width: 6%; }
-    #footer-info { margin-top: 2.5em; text-align: center; }
+    #footer-menu { text-align: center; }
+    #footer-menu li { display: inline-block; float: none; }
+    #footer-info { margin-top: 1em; text-align: center; }
 }
 
 @media (max-width: 620px ) {
