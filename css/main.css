@@ -126,6 +126,16 @@ header {
 header p { color: #fff; }
 
 /* ==================================
+   Contact
+   ================================== */
+#submit-email {
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+/* ==================================
    Footer
    ================================== */
 footer { color: #77838C; font-size: .8em; margin-bottom: 25px; }
