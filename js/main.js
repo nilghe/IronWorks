@@ -51,7 +51,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: "POST",
-            url: "../contact/submit.php",
+            url: "contact.php",
             data: queryString,
             success: function(){
                 console.log('email sent!');
