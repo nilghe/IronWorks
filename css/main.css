@@ -133,6 +133,12 @@ header p { color: #fff; }
        -moz-transition: all 1s ease;
          -o-transition: all 1s ease;
             transition: all 1s ease;
+    margin-bottom: 10px;
+}
+
+#required {
+  color: #9C001A;
+  font-size: .8em;
 }
 
 /* ==================================
@@ -246,9 +252,7 @@ footer { color: #77838C; font-size: .8em; margin-bottom: 25px; }
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Media Queries for Responsive Design
    ========================================================================== */
 @media (max-width: 979px){
     .navbar-fixed-top { margin-bottom: 0; }
@@ -261,14 +265,16 @@ footer { color: #77838C; font-size: .8em; margin-bottom: 25px; }
 
 @media (max-width: 767px ) {
     header { margin: 0 -20px 0 -20px; }
-    .responsive-icon { width: 6%; }
+    .responsive-icon { width: 10%; }
     #footer-menu { text-align: center; }
     #footer-menu li { display: inline-block; float: none; }
     #footer-info { margin-top: 1em; text-align: center; }
 }
 
 @media (max-width: 620px ) {
-    .responsive-icon { padding-top: 1%; }
+    /* reducing font sizes on smaller devices */
+    p, .unstyled { font-size: 1em; }
+    h1 { font-size: 2em; }
 }
 
 

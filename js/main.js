@@ -43,7 +43,7 @@ $(document).ready(function(){
                         + '&subject=' + subject
                         + '&message=' + message;
 
-        if (validEmail(email)) {
+        if (validEmail(email) && (name.length > 1) && (phone.length > 5) && (message.length > 1)) {
             $.ajax({
                 type: "POST",
                 url: "contact.php",
