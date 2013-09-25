@@ -97,7 +97,7 @@ a:hover { color: #9C001A; text-decoration: none; }
    ================================== */
 .navbar-inner { line-height: 1; opacity: .9; }
 .span12 { min-height: 250px; }
-.unstyled { font-size: 1.2em; color: #77838C; }
+.unstyled { font-size: 1.2em; }
 .unstyled li { line-height: 28px; }
 .unstyled .icon-check-sign { margin-right: 5px; }
 .form-horizontal .controls { margin-left: 0; margin-right: 190px; } /* Contact Form to left align */
@@ -144,7 +144,7 @@ header p { color: #fff; }
 /* ==================================
    Footer
    ================================== */
-footer { color: #77838C; font-size: .8em; margin-bottom: 25px; }
+footer { color: #77838C; font-size: .9em; margin-bottom: 25px; }
 #footer-menu { list-style-type: none; }
 #footer-menu li { float: left; }
 #footer-menu li > a { padding: 0 8px ;}

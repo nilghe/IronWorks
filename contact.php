@@ -25,7 +25,7 @@
 			}
 		}
 
-		mail("burnin.lover@gmail.com", 
+		mail("info@irontechnologies.com", 
 			 "Iron Technologies Contact From: " . $_POST['name'],
 			 $message,
 			 "From: " . $_POST['email']);
