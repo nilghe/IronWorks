@@ -1,3 +1,6 @@
+//@import url('vendor/bootstrap.js');
+//@import url('plugins.js');
+
 $(document).ready(function(){
 
     // Animate scrolling to anchors 
