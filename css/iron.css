@@ -131,6 +131,8 @@ header {
 
 header p { color: #fff; }
 
+#main-logo-txt { font-size: 4.2em; }
+
 /* ==================================
    Contact
    ================================== */
@@ -260,9 +262,14 @@ footer { color: #77838C; font-size: .9em; margin-bottom: 25px; }
 /* ==========================================================================
    Media Queries for Responsive Design
    ========================================================================== */
+@media (max-width: 1200px) {
+    #main-logo-txt { font-size: 3.4em; }
+}
+
 @media (max-width: 979px){
     .navbar-fixed-top { margin-bottom: 0; }
     header { padding: 10px 20px; }
+    #main-logo-txt { font-size: 3em; }
     #footer-menu { margin: 0;}
 }
 
