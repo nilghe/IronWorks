@@ -1,3 +1,10 @@
+# December 7th, 2013
+
+* FINAL VERSION (Pending approval from client)
+* Changing the holder for the logo to text 
+* Added .json file for FTP configuration (added to .gitignore to prevent the information from being public)
+* Added a mix of media queries and javascript to hide/show the top navigation text. This is to prevent duplicate "IRON TECHNOLGIES" from showing on the screen. This only applies to large screens. Smaller screens will see two, as this was the best option for now.
+
 # September 19th, 2013
 
 * Adding Font Awesome 3.2.1

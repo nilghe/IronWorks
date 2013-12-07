@@ -102,6 +102,7 @@ a:hover, .navbar .nav>li>a:hover { color: #9C001A; text-decoration: none; }
    Bootstrap Overrides
    ================================== */
 .navbar-inner { line-height: 1; opacity: .9; }
+.navbar .brand { display: none; } /* do not show the brand text to reduce redundant text. Only show on smaller screens or when scrolled */
 .span12 { min-height: 250px; }
 .unstyled { font-size: 1.2em; }
 .unstyled li { line-height: 28px; }
@@ -268,6 +269,7 @@ footer { color: #77838C; font-size: .9em; margin-bottom: 25px; }
 
 @media (max-width: 979px){
     .navbar-fixed-top { margin-bottom: 0; }
+    .navbar .brand { display: inline; }
     header { padding: 10px 20px; }
     #main-logo-txt { font-size: 3em; }
     #footer-menu { margin: 0;}
