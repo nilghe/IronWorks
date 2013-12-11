@@ -1,3 +1,10 @@
+# December 11th, 2013
+
+* Found an issue with the YUI plugin for Sublimetext 2 for minifying CSS. It does not like something in the CSS and causes mobile browsers to not render ALL the CSS properly. Will only work on the desktop version.
+* The temporary solution is to manually minify the concatinated CSS manually at [YUI Compressor Online](http://refresh-sf.com/yui/).
+* Project is tested and ready for deployment to production
+* Client has signed off on the project
+
 # December 7th, 2013
 
 * FINAL VERSION (Pending approval from client)
